@@ -1,0 +1,226 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNU6fOONcOjzx2sjYrFQ7FH",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Allen-Samonte/OOP-58001/blob/main/Fundamentals%20_of_Pythonipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Fundamentals of Python"
+      ],
+      "metadata": {
+        "id": "Ojc82g2ERSx7"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Information"
+      ],
+      "metadata": {
+        "id": "vReIWZ_PRlo6"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-VUKYEGUP_5D",
+        "outputId": "ad19819e-cb88-48e6-c9ec-22432691f6e3"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5 > 2\n"
+          ]
+        }
+      ],
+      "source": [
+        "if 5 > 2:\n",
+        "  print(\"5 > 2\")\n",
+        "  5 > 2"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Python Comment"
+      ],
+      "metadata": {
+        "id": "z3HQL46KSY-z"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#This is a comment\n",
+        "print(\"Hello World!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Hl-tgdsERNeE",
+        "outputId": "1e71b614-4ebf-4e85-ebb1-d3cc1c224fb5"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Python Variable"
+      ],
+      "metadata": {
+        "id": "qdUKqgHdTYEp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Single value with single variable\n",
+        "\n",
+        "x = 1\n",
+        "\n",
+        "#Single variable with multiple values\n",
+        "\n",
+        "array = [1,2,3]\n",
+        "print (array)\n",
+        "\n",
+        "#Multipe variables with single value\n",
+        "\n",
+        "a = b = c = \"Allen\"\n",
+        "print (a, b, c)\n",
+        "print (a)\n",
+        "print (b)\n",
+        "print (c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WwO9eU2ITcLy",
+        "outputId": "a06818d7-b2b6-42a0-9fc4-92ceccd85be3"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3]\n",
+            "Allen Allen Allen\n",
+            "Allen\n",
+            "Allen\n",
+            "Allen\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Python Casting "
+      ],
+      "metadata": {
+        "id": "wfENIs9uUw66"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = int(4)\n",
+        "print(n)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wF2vgN_wVC7B",
+        "outputId": "94516634-a0dc-4d38-e9ce-9ab35b8d0a09"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Type Function"
+      ],
+      "metadata": {
+        "id": "riJNNauXVJFZ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "c = \"Allen\"\n",
+        "d = 5.6\n",
+        "print(type(c))\n",
+        "print(type(d))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "31CCJwrJVLgx",
+        "outputId": "df502d41-ee93-4ca6-af27-a6def788d93f"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n",
+            "<class 'float'>\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
